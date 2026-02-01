@@ -4,15 +4,15 @@ export const CARD_SPACING = 36
 export const CARD_SPACING_SM = 24
 export const BLOG_SLUG_KEY = process.env.BLOG_SLUG_KEY || ''
 
-console.log('OWNER:', process.env.NEXT_PUBLIC_GITHUB_OWNER);
+
 
 /**
  * GitHub 仓库配置
  */
 export const GITHUB_CONFIG = {
-	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'KEee',
-	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || '2025-blog-fork',
-	BRANCH: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main',
-	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '2770543',
-	ENCRYPT_KEY: process.env.NEXT_PUBLIC_GITHUB_ENCRYPT_KEY || 'wudishiduomejimo',
+	OWNER:'KEee',
+	REPO: '2025-blog-fork',
+	BRANCH:'main',
+	APP_ID: '2770543',
+	ENCRYPT_KEY:'wudishiduomejimo',
 } as const
