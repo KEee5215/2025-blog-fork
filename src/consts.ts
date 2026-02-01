@@ -4,6 +4,8 @@ export const CARD_SPACING = 36
 export const CARD_SPACING_SM = 24
 export const BLOG_SLUG_KEY = process.env.BLOG_SLUG_KEY || ''
 
+console.log('OWNER:', process.env.NEXT_PUBLIC_GITHUB_OWNER);
+
 /**
  * GitHub 仓库配置
  */
